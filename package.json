@@ -1,35 +1,9 @@
 {
   "name": "aprox-api",
-  "version": "0.5.5-4",
-  "description": "Aprox API Library",
-  "main": "dist/index.js",
-  "module": "esm/index.js",
-  "homepage": "https://developers.aprox.app",
-  "repository": "https://github.com/MyNameIsKiyoshi/AproxApi/api.git",
-  "author": "Paul Makles <insrt.uk>",
-  "license": "MIT",
-  "scripts": {
-    "build": "REWRITE_ANYOF=1 oapilib && tsc && tsc -p tsconfig.esm.json",
-    "prepublish": "in-publish && yarn build || echo Skipping build."
-  },
-  "devDependencies": {
-    "@types/lodash.defaultsdeep": "^4.6.6",
-    "in-publish": "^2.0.1",
-    "openapi-typescript": "^5.2.0",
-    "typescript": "^4.6.2"
-  },
-  "dependencies": {
-    "@insertish/oapi": "0.1.18",
-    "axios": "^0.26.1",
-    "lodash.defaultsdeep": "^4.6.1",
-    "aprox-api": "0.5.5-4"
-  },
-  "files": [
-    "src",
-    "dist",
-    "esm",
-    "OpenAPI.json",
-    "LICENSE",
-    "README.md"
-  ]
+  "version": "1.0.1",
+  "description": "Official Aprox Api",
+  "main": "index.js",
+  "repository": "https://github.com/MyNameIsKiyoshi/AproxApi.git",
+  "author": "BuildTools <unconfigured@null.spigotmc.org>",
+  "license": "MIT"
 }
