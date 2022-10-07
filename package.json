@@ -1,6 +1,6 @@
 {
   "name": "aprox-api",
-  "version": "1.0.2",
+  "version": "2.5.1",
   "description": "Official Aprox Api",
   "main": "dist/index.js",
   "module": "esm/index.js",
@@ -8,6 +8,7 @@
   "repository": "https://github.com/AproxApp/AproxApi.git",
   "author": "MyNameIsKiyoshi",
   "license": "MIT",
+  "keywords": ["Aprox", "Chat", "MyNameIsKiyoshi"],
   "scripts": {
     "build": "REWRITE_ANYOF=1 oapilib && tsc && tsc -p tsconfig.esm.json",
     "prepublish": "in-publish && yarn build || echo Skipping build."
