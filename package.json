@@ -1,11 +1,11 @@
 {
   "name": "aprox-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official Aprox Api",
   "main": "dist/index.js",
   "module": "esm/index.js",
-  "homepage": "https://developers.aprox.app",
-  "repository": "https://github.com/MyNameIsKiyoshi/AproxApi.git",
+  "homepage": "http://dev.kingsurvival.it",
+  "repository": "https://github.com/AproxApp/AproxApi.git",
   "author": "MyNameIsKiyoshi",
   "license": "MIT",
   "scripts": {
